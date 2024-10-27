@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/main"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inbox"
+            android:textSize="27sp"
+            android:background="@color/crimson"
+            android:gravity="start"
+            android:padding="30dp"
+            android:textColor="@color/white"
+            android:drawableStart="@drawable/ic_menu"
+            android:drawableEnd="@drawable/ic_search"
+            android:drawablePadding="15dp"/>
+    <ListView
+            android:id="@+id/my_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+</LinearLayout>
